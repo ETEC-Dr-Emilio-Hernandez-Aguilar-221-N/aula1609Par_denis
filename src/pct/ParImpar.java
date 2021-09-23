@@ -31,6 +31,9 @@ public class ParImpar {
         if((n%2) == 0)
             System.out.println("\nO número " + n + " é par!");
         
+        else
+            System.out.println("\n O numero " + n + " é impar!");
+        
     }
     
 }

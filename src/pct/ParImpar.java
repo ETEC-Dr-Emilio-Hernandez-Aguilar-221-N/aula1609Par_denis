@@ -14,25 +14,25 @@ import java.util.Scanner;
 public class ParImpar {
     public static void main(String[] args) {
         //Declaração de variáveis
-        int n;
+        int num;
         
         //Criação e instância do objeto de entrada
         Scanner entrada = new Scanner(System.in);
         
         
         //Apresentação
-        System.out.println("\n\t\t\t -- Par ou Impar --\n");
+        System.out.println("\n\t\t\t -- Seu numero é Par? --\n");
         
         //Ler o número informado pelo usuário
-        System.out.print("\n\tInforme um número: ");
-        n = entrada.nextInt();
+        System.out.print("\n\t Informe um número: ");
+        num = entrada.nextInt();
         
         
-        if((n%2) == 0)
-            System.out.println("\nO número " + n + " é par!");
+        if((num%2) == 0)
+            System.out.println("\n O número digitado (" + num + ") é par!");
         
         else
-            System.out.println("\n O numero " + n + " é impar!");
+            System.out.println("\n O número informado não é par");
         
     }
     
